@@ -1,0 +1,179 @@
+.crypto-calculator{
+    font-size: 18px;
+}
+.crypto-amounts-content {
+    display: inline-block;
+    width: 49%;
+    height: 80px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.crypto-amounts-content .crypto-amount .crypto-symbol{
+    height: 18px;
+    width: 18px;
+}
+
+.crypto-calculator-total{
+    background-color: #0089CF;
+}
+
+.crypto-calculator-interest{
+    background-color: #76C0AD;
+}
+
+.crypto-calculator .crypto-amounts-content .crypto-text{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.crypto-amounts-content span{
+    font-size: 24px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.crypto-calculator-form .form-control{
+    padding-bottom: 10px;
+}
+
+.crypto-calculator-form .form-control label{
+    width: 49%;
+    padding-right: 2.5%;
+    display: inline-block;
+    text-align: right;
+}
+
+.crypto-calculator-form .form-control input,
+.crypto-calculator-form .form-control select{
+    width: 49%;
+    border: 1px solid #A7A9AC;
+    padding: 5px 10px;
+    font-size: 100%;
+}
+
+.crypto-calculator-form .form-control input:read-only{
+    background-color: #F2F2F2;
+}
+
+.crypto-calculator-form .form-control .overlap-text{
+    position: absolute;
+    right: 2%;
+    margin-top: 6px;
+    color: #BCBCBC;
+    font-size: 16px;
+}
+
+.crypto-calculator-form .form-control select{
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+}
+
+.crypto-calculator-form .form-control button{
+    font-family: 'Montserrat';
+    background-color: #1288C9;
+    border: 1px solid #1288C9;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.cryto-table-content table.crypto-table{
+    width: 100% !important;
+    font-family: 'Hind';
+    font-size: 18px !important;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #58585b;
+    list-style-type: none!important;
+    border: 1px solid #A7A9AC !important;
+    margin-bottom: 0 !important;
+}
+
+.cryto-table-content .table-text p{
+    font-family: 'Hind' !important;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #666;
+    margin-top: 8px;
+}
+
+.cryto-table-content .crypto-table tr.crypto-table-head,
+.cryto-table-content .crypto-table #list-of-cryptocoins tr{
+    border-bottom: 1px solid #A7A9AC;
+}
+
+.cryto-table-content .crypto-table #list-of-cryptocoins tr td{
+    border-top: none;
+    padding: 0;
+    height: 50px;
+}
+
+.crypto-table-head{
+    background: #0089CF; 
+    color: #fff;
+    height: 60px;
+}
+
+.crypto-table-head td{
+    text-align: center;
+}
+
+#list-of-cryptocoins .cypto-icon{
+    height: 32px;
+    width: 32px;
+    float: none;
+}
+
+@media (max-width: 1135px){
+    .cryto-table-content table.crypto-table{
+        font-size: 16px !important;
+    }
+    
+    .cryto-table-content table.crypto-table .crypto-table-head td{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 980px){
+    .cryto-table-content table.crypto-table{
+        font-size: 16px !important;
+    }
+    
+    .cryto-table-content table.crypto-table .crypto-table-head td{
+        padding: 0 5px;
+    }
+    
+    .crypto-calculator-interest{
+        width: 50%;
+    }
+    
+    .crypto-calculator-form .form-control input, 
+    .crypto-calculator-form .form-control select{
+        width: 50%;
+    }
+}
+
+@media (max-width: 535px){
+    .crypto-calculator-interest{
+        width: 49%;
+    }
+    
+    .crypto-calculator-form .form-control input, 
+    .crypto-calculator-form .form-control select{
+        width: 49%;
+    }
+}

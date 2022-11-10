@@ -1,0 +1,284 @@
+#topNavChat{display:block!important;}
+.live-chat {
+    position: fixed;
+    top: 40%;
+    top: 180px;
+    right: 0;
+    width: 115px;
+    height: 145px;
+    z-index: 9999;
+}
+
+#livePersonPopup .modal-parent, #livePersonSurvey .modal-parent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#livePersonPopup .modal-parent table td {
+    text-align: center;
+}
+
+.livechat-popup {
+    width: 100%;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.livechat-popup .modal-content {
+    border-radius: 0;
+}
+
+.livechat-popup .modal-body {
+    padding: 0 20px 40px;
+}
+
+.livechat-popup .modal-header {
+    height: 40px;
+    vertical-align: middle;
+    padding-top: 18px;
+    padding-left: 30px;
+    font: bold 16px Arial, Verdana, Helvetica, sans-serif !important;
+    border-bottom: none;
+    white-space: nowrap;
+    margin: 0px;
+    width: auto;
+}
+
+.modal-body .pre-chat-info h3, .modal-body h3 {
+    font-size: 28px;
+    color: #0077BF;
+    font-family: Ubuntu;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.livechat-popup .pre-chat-info {
+    margin-top: 14px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3C424C;
+    text-align: center;
+}
+
+.livechat-popup .pre-chat-survey {
+    width: 270px;
+    margin: 10px auto 0;
+    display: inline-block;
+}
+
+.livechat-popup .pre-chat-survey a {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3C424C;
+    text-align: center;
+}
+
+.livechat-popup .button-container {
+    padding: 20px 0;
+}
+
+.livechat-popup .modal-body h3 {
+    font-size: 22px;
+    color: #0077BF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.livechat-popup .chat-survey-subhead {
+    margin-top: 14px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C424C;
+    text-align: center;
+}
+
+.livechat-popup .chat-survey-text {
+    padding: 10px 0;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C424C;
+    text-align: center;
+}
+
+.livechat-popup .chat-survey-required {
+    padding: 10px;
+    font-size: 16px;
+    color: #a3a6a9;
+    font-family: Ubuntu;
+}
+
+.livechat-popup .chat-survey-input {
+    margin-top: 3px;
+    width: 100% !important;
+    height: 40px;
+    background: #F2F2F2;
+    border: 0;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: #3C424C;
+    padding: 5px 10px;
+}
+
+.livechat-popup input::placeholder {
+    color: #a3a6a9;
+}
+
+.livechat-popup input:-ms-input-placeholder {
+    color: #a3a6a9;
+}
+
+.livechat-popup input:-moz-placeholder {
+    color: #a3a6a9;
+}
+
+.livechat-popup input::-webkit-input-placeholder {
+    color: #a3a6a9;
+}
+
+.livechat-popup .chat-survey-error {
+    font-family: 'Ubuntu', sans-serif;
+    color: red;
+}
+
+.livechat-popup .chat-survey-questions {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.livechat-popup .chat-survey-question {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.livechat-popup .chat-survey-label {
+    font-weight: bold;
+}
+
+button.btn_chat {
+    background: transparent;
+    border: 1px solid;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: Ubuntu;
+    width: 270px;
+}
+
+button.btn_chat:hover {
+    color: #fff;
+    border-color: #FF971C;
+    background-color: #FF971C;
+}
+
+
+.button.green34px-arrow {
+    margin-bottom: 34px;
+}
+
+#spinner {
+    display: none;
+    margin-left: 235px;
+    padding: 10px 0 20px 0;
+    height: 34px;
+}
+
+.livechat-popup .btn-start-chat {
+    background: transparent;
+    border: 2px solid #3C424C;
+    color: #3C424C;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    width: 240px;
+    padding: 20px;
+}
+
+.livechat-popup .btn-start-chat:hover {
+    color: #fff;
+    border-color: #FF971C;
+    background-color: #FF971C;
+}
+
+div#livePersonChat {
+    cursor: pointer;
+}
+
+div#livePersonChat .Chat_online{
+    display: none;
+}
+
+#divnewbtn {
+    cursor: pointer;
+}
+
+.modal-backdrop {
+    z-index: 444 !important;
+}
+
+table.lpStaticButton {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .modal-dialog {
+        width: 800px !important;
+    }
+
+    .livechat-popup .button-container {
+        padding: 40px 0;
+    }
+
+    .livechat-popup .pre-chat-survey {
+        margin: auto 10px;
+    }
+
+    .livechat-popup .modal-body h3 {
+        font-size: 26px;
+        color: #0077BF;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .livechat-popup .chat-survey-subhead {
+        margin-top: 14px;
+        font-family: Ubuntu;
+        font-weight: 400;
+        font-size: 18px;
+        color: #3C424C;
+        text-align: center;
+    }
+
+    .livechat-popup .chat-survey-text {
+        padding: 10px 0;
+        font-family: Ubuntu;
+        font-weight: 400;
+        font-size: 18px;
+        color: #3C424C;
+        text-align: center;
+    }
+
+    .livechat-popup .chat-survey-questions {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .livechat-popup .btn-start-chat {
+       /* margin: 20px auto 0; */
+        margin: 10px auto 0;
+    }
+
+    #livePersonSurvey .GDPR_MODAL{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+}
