@@ -229,9 +229,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="{{ route('register') }}">SIGN UP</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="contact-us.html">CONTACT</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link text-white" href="contact-us.html">CONTACT</a>--}}
+{{--                </li>--}}
             </ul>
         </div>
     </nav>
@@ -271,9 +271,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="{{ route('register') }}">SIGN UP</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="contact-us.html">CONTACT</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link text-white" href="contact-us.html">CONTACT</a>--}}
+{{--                </li>--}}
             </ul>
         </div>
     </nav>
