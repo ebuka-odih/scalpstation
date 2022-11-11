@@ -222,7 +222,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="faqs.html">QUESTION GUIDE</a>
+                    <a class="nav-link text-white" href="faqs">QUESTION GUIDE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="{{ route('login') }}">LOG IN</a>
@@ -253,14 +253,10 @@
             <ul class="navbar-nav mobile_navbar_nav ml-auto">
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{ route('index') }}">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="about-us.html">ABOUT</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="plan.html">INVESTMENTS</a>
+                    <a class="nav-link text-white" href="{{ route('about') }}">ABOUT</a>
                 </li>
 
                 <li class="nav-item">
