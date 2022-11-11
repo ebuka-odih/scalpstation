@@ -12,7 +12,7 @@
                     <div class="carousel-img-1"></div>
                     <div class="carousel-caption">
                         <h1 class="animated fadeInLeft">SCALPSTATION Ltd</h1>
-                        <h5 class="animated fadeInUp">Global Crypto/Forex Broker.</h5>
+                        <h5 class="animated fadeInUp">Global Crypto/Stocks Broker.</h5>
                         <div class="slider-btn">
                             <div class="animated inner-btn fadeInUp"><a href="portfolio/register.html" class="btn btn-slider">Get Started!</a></div>
                         </div>
