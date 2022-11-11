@@ -892,80 +892,12 @@
             </div>
         </section>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="footer-col">
-                            <figure class="footer-logo">  <a href="#" class="nav-brand"><img src="logo3.png" alt="" style="height:45px;background-color:white;border-radius:20px"  class="img-fluid"></a></figure>
-                            <p>We are a digital assets trading and managment company, providing smart investment products to investors, who wish to create financial stabilty and security through secure investing. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-col">
-                            <h5>Links</h5>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i>  &nbsp; <a href="index-2.html">Home</a></li>
-                                <li class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i>  &nbsp; <a href="about-us.html">About us</a></li>
-                                <li class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i>  &nbsp; <a href="faqs.html">Faq</a></li>
-                                <li class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i>  &nbsp; <a href="contact-us.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-col">
-                            <h5></h5>
-                            <div class="location-box">
-                                <figure class="bottom-location-icon"><img src="img/master/location-footer.png" alt=""></figure>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="footer-col last-col">
-                            <h5>NEWSLETTER</h5>
-                            <p>Suscribe to our newsletter and get the lastest scoop right to your inbox!</p>
-                            <div class="newsletter-box">
-                                <form  action="#" method="post" name="sign-up"><input type="hidden" name="form_id" value="16505203773043"><input type="hidden" name="form_token" value="d4ba86517209195a3af61c6d2178fd9b">
-                                    <input type="email" class="input" id="email" name="email" placeholder="Your email address" required>
-                                    <input type="submit" class="button" id="submit" value="SIGN UP">
-                                </form>
-                            </div>
-                            <p class="cursive">Your email is safe with us, we don't spam.</p>
-                        </div>
-                    </div>
-                </div>
-                <hr class="footer">
-                <div class="bottom-footer">
-                    <div class="copytight">
-                        <p>Copyright © 2020-2022 by  SCALPSTATION Ltd | All rights reserved</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <a href="#0" class="cd-top">Top</a>
-        <!-- ==============================================
-        JAVASCRIPTS
-        =============================================== -->
-        <script src="js/plugins.js"></script>
-        <script src="js/finnexia.js"></script>
-        <script src="js/bootstrap.min.js"></script>
 
 
         <!-- Smartsupp Live Chat script -->
 
 
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+
 
 
 @endsection

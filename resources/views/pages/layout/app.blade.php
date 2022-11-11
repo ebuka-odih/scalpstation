@@ -11,7 +11,7 @@
     TITLE AND META TAGS
     =============================================== -->
 
-    <title>forextradingcapitalltd.com</title>
+    <title>scal.com</title>
 
     <meta name="description" content="The premise of SCALPSTATION Ltd itself is that it grants open to investors, access to digital currency investment that offers a highly profitable investment return for everyone. By performing a wide range of operations, SCALPSTATION Ltd makes a profit from different diversified sources.">
     <meta name="keywords" content="SCALPSTATION, SCALPSTATION Ltd">
@@ -25,9 +25,9 @@
     <!-- ==============================================
     CSS
     =============================================== -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!--    <link rel="stylesheet" href="css/navbar.css"> -->
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="{{ asset('css/stylesheet.css') }}">
     <!--     <link rel="stylesheet" href="css/responsive.css">  -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.html">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -44,9 +44,10 @@
     <!--Start of Tawk.to Script-->
 
 
-    <script type="text/javascript" id="hs-script-loader" async defer src="http://js-eu1.hs-scripts.com/26226386.js"></script>
+{{--    <script type="text/javascript" id="hs-script-loader" async defer src="http://js-eu1.hs-scripts.com/26226386.js"></script>--}}
     <!-- End of HubSpot Embed Code -->
 
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="85be6d13-b652-43bb-a5a3-c1fe6c8f0d4d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
 </head>
 
@@ -345,9 +346,16 @@
     <script src="{{ asset('js/finnexia.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
-
-    <!-- Smartsupp Live Chat script -->
-<!-- Mirrored from forextradingcapitalltd.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Apr 2022 13:53:55 GMT -->
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 <!-- Mirrored from forextradingcapitalltd.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Nov 2022 20:51:26 GMT -->
 </html>
