@@ -11,7 +11,7 @@
     TITLE AND META TAGS
     =============================================== -->
 
-    <title>scal.com</title>
+    <title>scalpstation.com</title>
 
     <meta name="description" content="The premise of SCALPSTATION Ltd itself is that it grants open to investors, access to digital currency investment that offers a highly profitable investment return for everyone. By performing a wide range of operations, SCALPSTATION Ltd makes a profit from different diversified sources.">
     <meta name="keywords" content="SCALPSTATION, SCALPSTATION Ltd">
