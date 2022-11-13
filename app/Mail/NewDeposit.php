@@ -30,7 +30,7 @@ class NewDeposit extends Mailable
     public function build()
     {
         return $this->markdown('emails.new-deposit-alert')
-            ->from('noreply@PrepStation.co', "PrepStation")
+            ->from('noreply@scalpstation.co', "Scalpstation")
             ->subject('New Deposit '.$this->data['deposit']->transId());
     }
 }
